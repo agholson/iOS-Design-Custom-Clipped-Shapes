@@ -19,6 +19,9 @@
 		752F5B1427B99B8C00C553E8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		752F5B1627B99B8D00C553E8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		752F5B1927B99B8D00C553E8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		752F5B2027B99C1600C553E8 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		752F5B2227B9A4F300C553E8 /* fiveShapes.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fiveShapes.png; sourceTree = "<group>"; };
+		752F5B2327B9A6E000C553E8 /* clippedShape.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = clippedShape.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +38,8 @@
 		752F5B0627B99B8C00C553E8 = {
 			isa = PBXGroup;
 			children = (
+				752F5B2127B9A4CC00C553E8 /* img */,
+				752F5B2027B99C1600C553E8 /* README.md */,
 				752F5B1127B99B8C00C553E8 /* Mod1ShapesDemo */,
 				752F5B1027B99B8C00C553E8 /* Products */,
 			);
@@ -65,6 +70,15 @@
 				752F5B1927B99B8D00C553E8 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		752F5B2127B9A4CC00C553E8 /* img */ = {
+			isa = PBXGroup;
+			children = (
+				752F5B2227B9A4F300C553E8 /* fiveShapes.png */,
+				752F5B2327B9A6E000C553E8 /* clippedShape.png */,
+			);
+			path = img;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
